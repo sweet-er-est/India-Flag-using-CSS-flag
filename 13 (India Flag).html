@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <style>
+            #orange{
+                position: static;
+                top:50%;
+                left:50%;
+                width:900px;
+                height:900px;
+                background-color: orange;
+                border: 3px solid black;
+            }
+            #white{
+                position:relative;
+                top:300px;
+                background-color: white;
+                width:900px;
+                height:600px;
+
+            }
+            #blue{
+                position: relative;
+                top:3px;
+                border-radius: 1000px;
+                background-color: blue;
+                width: 300px;
+                left:300px;
+                height: 300px;
+                align-items: center;
+            }
+            #green{
+                position: relative;
+                top:5px;
+                background-color: green;
+                width:900px;
+                height: 300px;
+            }
+            #demo{
+                position: absolute;
+                top: 0%;
+                left: 36%;
+                color:black;
+                z-index: 100;
+                font-size: 70pt;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="orange">
+            <div id="white">
+                <div id="blue"></div>
+                <p id="demo">INDIA</p>
+            </div>
+            <div id="green"></div>
+        </div>
+    </body>
+    </html>
